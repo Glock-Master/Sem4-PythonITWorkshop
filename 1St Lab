@@ -1,0 +1,947 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Operators And Control Structures"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "8"
+      ]
+     },
+     "execution_count": 1,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3+5"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a=2\n",
+    "b=3\n",
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ab'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#String AddN\n",
+    "'a'+'b'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'lalala'"
+      ]
+     },
+     "execution_count": 5,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Multiplication\n",
+    "'la'*3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "81"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#power\n",
+    "3**4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4.333333333333333"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Division\n",
+    "13/3\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#TypeCast\n",
+    "int(13/3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Modulus\n",
+    "13%3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Relational Operators\n",
+    "5<3\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5>3<7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5>3>7"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x=3;y=6;x<=3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x<=y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x=8;x>=y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x=2;y=2;x==y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x='str';y='stR';x==y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "y='str';x==y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x!=y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Logical Operators\n",
+    "x=True;\n",
+    "not x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x=False;y=True;x and y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "metadata": {
+    "scrolled": true
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Short Circuit Evaluation \n",
+    "x=True;y=False;x or y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Your Good Name PlzNehal\n",
+      "Hello Nehal\n"
+     ]
+    }
+   ],
+   "source": [
+    "#USer Input And Output\n",
+    "Name=input(\"Your Good Name Plz\")\n",
+    "print('Hello ' + Name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter your Age18\n",
+      "18\n"
+     ]
+    }
+   ],
+   "source": [
+    "Age=input('Enter your Age')\n",
+    "age=int(Age)\n",
+    "print(age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter Your Age18\n",
+      "<class 'int'>\n",
+      "Age:18\n",
+      "age: 18\n"
+     ]
+    }
+   ],
+   "source": [
+    "age_1=int(input('Enter Your Age'))\n",
+    "print(type(age_1))\n",
+    "print('Age:'+str(age_1))\n",
+    "print('age:',age_1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Condition is True\n",
+      "Sample Statement\n",
+      "Nested If\n",
+      "DoneWith Inner If\n",
+      "done with outer If\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Nested If\n",
+    "a=2\n",
+    "if a==2:\n",
+    "    print(\"Condition is True\")\n",
+    "    print(\"Sample Statement\")\n",
+    "    if(a<3):\n",
+    "        print(\"Nested If\")\n",
+    "    print(\"DoneWith Inner If\")\n",
+    "print(\"done with outer If\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "In Else\n",
+      "If in Else:A equal to 5\n",
+      "out\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=5\n",
+    "if(a!=5):\n",
+    "    print(\"A not equal to 5\")\n",
+    "else:\n",
+    "    print(\"In Else\")\n",
+    "    if(a==5):\n",
+    "        print(\"If in Else:A equal to 5\")\n",
+    "    else:\n",
+    "        print(\"Else in else\")\n",
+    "print(\"out\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter the number3\n",
+      "3\n",
+      "IS ODD\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Even Or Odd\n",
+    "Num=input(\"Enter the number\")\n",
+    "n=int(Num)\n",
+    "if(n==0):\n",
+    "    print(\"None of Even or ODD\")\n",
+    "elif(n%2==0):\n",
+    "    print(n)\n",
+    "    print(\"is Even\")\n",
+    "else:\n",
+    "    print(n)\n",
+    "    print(\"IS ODD\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter a Number 34\n",
+      "Below 40\n"
+     ]
+    }
+   ],
+   "source": [
+    "#ElseIF\n",
+    "Var=input(\"Enter a Number \")\n",
+    "var=int(Var)\n",
+    "if(var<100 and var>90):\n",
+    "    print(\"Between 90 and 100\")\n",
+    "elif(var<90 and var>80):\n",
+    "    print(\"Between 80 and 90\")\n",
+    "elif(var<80 and var>40):\n",
+    "    print(\"Between 40 and 80\")\n",
+    "else:\n",
+    "    print(\"Below 40\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#loopStatements"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Help on class range in module builtins:\n",
+      "\n",
+      "class range(object)\n",
+      " |  range(stop) -> range object\n",
+      " |  range(start, stop[, step]) -> range object\n",
+      " |  \n",
+      " |  Return an object that produces a sequence of integers from start (inclusive)\n",
+      " |  to stop (exclusive) by step.  range(i, j) produces i, i+1, i+2, ..., j-1.\n",
+      " |  start defaults to 0, and stop is omitted!  range(4) produces 0, 1, 2, 3.\n",
+      " |  These are exactly the valid indices for a list of 4 elements.\n",
+      " |  When step is given, it specifies the increment (or decrement).\n",
+      " |  \n",
+      " |  Methods defined here:\n",
+      " |  \n",
+      " |  __bool__(self, /)\n",
+      " |      self != 0\n",
+      " |  \n",
+      " |  __contains__(self, key, /)\n",
+      " |      Return key in self.\n",
+      " |  \n",
+      " |  __eq__(self, value, /)\n",
+      " |      Return self==value.\n",
+      " |  \n",
+      " |  __ge__(self, value, /)\n",
+      " |      Return self>=value.\n",
+      " |  \n",
+      " |  __getattribute__(self, name, /)\n",
+      " |      Return getattr(self, name).\n",
+      " |  \n",
+      " |  __getitem__(self, key, /)\n",
+      " |      Return self[key].\n",
+      " |  \n",
+      " |  __gt__(self, value, /)\n",
+      " |      Return self>value.\n",
+      " |  \n",
+      " |  __hash__(self, /)\n",
+      " |      Return hash(self).\n",
+      " |  \n",
+      " |  __iter__(self, /)\n",
+      " |      Implement iter(self).\n",
+      " |  \n",
+      " |  __le__(self, value, /)\n",
+      " |      Return self<=value.\n",
+      " |  \n",
+      " |  __len__(self, /)\n",
+      " |      Return len(self).\n",
+      " |  \n",
+      " |  __lt__(self, value, /)\n",
+      " |      Return self<value.\n",
+      " |  \n",
+      " |  __ne__(self, value, /)\n",
+      " |      Return self!=value.\n",
+      " |  \n",
+      " |  __reduce__(...)\n",
+      " |      Helper for pickle.\n",
+      " |  \n",
+      " |  __repr__(self, /)\n",
+      " |      Return repr(self).\n",
+      " |  \n",
+      " |  __reversed__(...)\n",
+      " |      Return a reverse iterator.\n",
+      " |  \n",
+      " |  count(...)\n",
+      " |      rangeobject.count(value) -> integer -- return number of occurrences of value\n",
+      " |  \n",
+      " |  index(...)\n",
+      " |      rangeobject.index(value, [start, [stop]]) -> integer -- return index of value.\n",
+      " |      Raise ValueError if the value is not present.\n",
+      " |  \n",
+      " |  ----------------------------------------------------------------------\n",
+      " |  Static methods defined here:\n",
+      " |  \n",
+      " |  __new__(*args, **kwargs) from builtins.type\n",
+      " |      Create and return a new object.  See help(type) for accurate signature.\n",
+      " |  \n",
+      " |  ----------------------------------------------------------------------\n",
+      " |  Data descriptors defined here:\n",
+      " |  \n",
+      " |  start\n",
+      " |  \n",
+      " |  step\n",
+      " |  \n",
+      " |  stop\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Range is a function\n",
+    "help(range)\n",
+    "#If Start not passed, bydefault taken as Zero\n",
+    "#If Step not passed ,bydefault taken as One\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "3\n",
+      "5\n",
+      "7\n",
+      "9\n",
+      "11\n",
+      "13\n",
+      "15\n",
+      "17\n",
+      "19\n",
+      "loop Executed\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=20\n",
+    "#Range(Start,Stop,Step)\n",
+    "for i in range(1,n,2):\n",
+    "    print(i);\n",
+    "print(\"loop Executed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "20\n",
+      "16\n",
+      "12\n",
+      "8\n",
+      "4\n",
+      "loop Executed\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=1\n",
+    "#Range(Start,Stop,Step) uptill Stop-1\n",
+    "for i in range(20,n,-4):\n",
+    "    print(i);\n",
+    "print(\"loop Executed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n",
+      "loop Executed\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=10\n",
+    "#Range(Start,Stop), step taken as 1\n",
+    "for i in range(1,n):\n",
+    "    print(i);\n",
+    "print(\"loop Executed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n",
+      "3\n",
+      "5\n",
+      "7\n",
+      "9\n",
+      "loop Executed\n"
+     ]
+    }
+   ],
+   "source": [
+    "n=10\n",
+    "#Range(Stop) , Start Taken as 0 and Step Taken as 1\n",
+    "for i in range(1,n,2):\n",
+    "    print(i);\n",
+    "print(\"loop Executed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter Range3\n",
+      "6\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Program for summation\n",
+    "Num=input(\"Enter Range\")\n",
+    "n=int(Num)\n",
+    "summation=0\n",
+    "for i in range(1,n+1):\n",
+    "    summation=i+summation\n",
+    "print(summation)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Enter Range5\n",
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Program for summation\n",
+    "Num=input(\"Enter Range\")\n",
+    "n=int(Num)\n",
+    "summation=0\n",
+    "for i in range(1,n+1):\n",
+    "    summation=i*i+summation\n",
+    "print(summation)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "55\n"
+     ]
+    }
+   ],
+   "source": [
+    "#Program forsummation using whie loop\n",
+    "n=5\n",
+    "i=1\n",
+    "summation=0\n",
+    "while(i<=n):\n",
+    "    summation+=i**2\n",
+    "    i=i+1\n",
+    "print(summation)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
